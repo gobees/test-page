@@ -9,5 +9,6 @@ function twoDArray(element,index,array) {
   secondArr[count] = str.split(",");
   console.log(secondArr[count]);
 }
+
 csvArray.forEach(twoDArray);
 console.log(secondArr);
